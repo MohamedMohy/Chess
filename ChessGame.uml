@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ChessGame</OriginalElement>
+  <nodes>
+    <node x="434.7620278006307" y="871.5">ChessGame.Main</node>
+    <node x="1329.0" y="229.0">ChessGame.pieces.Pawn</node>
+    <node x="1646.0" y="229.0">ChessGame.pieces.Queen</node>
+    <node x="526.7187499999999" y="467.0">ChessGame.Board</node>
+    <node x="1157.75" y="1110.0">ChessGame.players</node>
+    <node x="1011.9999999999999" y="229.0">ChessGame.pieces.Knight</node>
+    <node x="316.9999999999999" y="229.0">ChessGame.pieces.Rook</node>
+    <node x="0.0" y="229.0">ChessGame.pieces.Bishop</node>
+    <node x="182.0" y="1187.0">ChessGame.Controller</node>
+    <node x="1080.75" y="763.0">ChessGame.pieces.Piece</node>
+    <node x="0.0" y="1187.0">ChessGame.assets</node>
+    <node x="741.9604779411761" y="0.0">ChessGame.Tile</node>
+    <node x="667.9999999999999" y="205.0">ChessGame.pieces.King</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.Rook">
+      <point x="-95.90625" y="-88.0" />
+      <point x="570.3124999999999" y="417.0" />
+      <point x="502.6249999999999" y="417.0" />
+      <point x="37.125" y="52.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Knight" target="ChessGame.pieces.Piece">
+      <point x="111.375" y="52.0" />
+      <point x="1271.875" y="407.0" />
+      <point x="1276.6672001405454" y="407.0" />
+      <point x="1276.6672001405454" y="673.0" />
+      <point x="1246.7205882352941" y="673.0" />
+      <point x="17.470588235294144" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.King">
+      <point x="8.71875" y="-88.0" />
+      <point x="674.9374999999999" y="377.0" />
+      <point x="708.4999999999999" y="377.0" />
+      <point x="-121.5" y="76.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Rook" target="ChessGame.pieces.Piece">
+      <point x="-111.375" y="52.0" />
+      <point x="354.1249999999999" y="447.0" />
+      <point x="370.7932778006307" y="447.0" />
+      <point x="370.7932778006307" y="713.0" />
+      <point x="1124.4264705882351" y="713.0" />
+      <point x="-104.82352941176464" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Rook" target="ChessGame.Tile">
+      <point x="0.0" y="-52.0" />
+      <point x="465.4999999999999" y="135.0" />
+      <point x="767.2297087104068" y="135.0" />
+      <point x="-84.23076923076928" y="52.5" />
+    </edge>
+    <edge source="ChessGame.pieces.King" target="ChessGame.Board">
+      <point x="-40.5" y="76.0" />
+      <point x="789.4999999999999" y="387.0" />
+      <point x="692.3749999999999" y="387.0" />
+      <point x="26.15625" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Piece" target="ChessGame.Tile">
+      <point x="104.82352941176464" y="-148.5" />
+      <point x="1334.0735294117644" y="723.0" />
+      <point x="1953.5" y="723.0" />
+      <point x="1953.5" y="155.0" />
+      <point x="918.8450933257916" y="155.0" />
+      <point x="67.38461538461547" y="52.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Queen" target="ChessGame.Board">
+      <point x="-37.125" y="52.0" />
+      <point x="1757.375" y="447.0" />
+      <point x="796.9999999999999" y="447.0" />
+      <point x="130.78125" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Queen" target="ChessGame.pieces.Piece">
+      <point x="111.375" y="52.0" />
+      <point x="1905.875" y="447.0" />
+      <point x="1883.7625377073903" y="447.0" />
+      <point x="1883.7625377073903" y="713.0" />
+      <point x="1316.6029411764703" y="713.0" />
+      <point x="87.3529411764705" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Knight" target="ChessGame.Tile">
+      <point x="0.0" y="-52.0" />
+      <point x="1160.5" y="185.0" />
+      <point x="868.3066317873299" y="185.0" />
+      <point x="16.846153846153925" y="52.5" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.Bishop">
+      <point x="-130.78125" y="-88.0" />
+      <point x="535.4374999999999" y="437.0" />
+      <point x="185.625" y="437.0" />
+      <point x="37.125" y="52.0" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.Pawn">
+      <point x="78.46875" y="-88.0" />
+      <point x="744.6874999999999" y="417.0" />
+      <point x="1366.125" y="417.0" />
+      <point x="-111.375" y="52.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Bishop" target="ChessGame.Board">
+      <point x="111.375" y="52.0" />
+      <point x="259.875" y="427.0" />
+      <point x="552.8749999999999" y="427.0" />
+      <point x="-113.34375" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.players" target="ChessGame.pieces.Piece">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="ChessGame.Main" target="ChessGame.Board">
+      <point x="50.0" y="-40.0" />
+      <point x="584.7620278006307" y="743.0" />
+      <point x="631.3437499999999" y="743.0" />
+      <point x="-34.875" y="88.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Knight" target="ChessGame.Board">
+      <point x="-37.125" y="52.0" />
+      <point x="1123.375" y="407.0" />
+      <point x="727.2499999999999" y="407.0" />
+      <point x="61.03125" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.Queen">
+      <point x="113.34375" y="-88.0" />
+      <point x="779.5624999999999" y="437.0" />
+      <point x="1683.125" y="437.0" />
+      <point x="-111.375" y="52.0" />
+    </edge>
+    <edge source="ChessGame.Tile" target="ChessGame.pieces.Piece">
+      <point x="101.0769230769231" y="52.5" />
+      <point x="952.5374010180992" y="135.0" />
+      <point x="1975.5" y="135.0" />
+      <point x="1975.5" y="743.0" />
+      <point x="1369.0147058823527" y="743.0" />
+      <point x="139.76470588235293" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Pawn" target="ChessGame.Tile">
+      <point x="0.0" y="-52.0" />
+      <point x="1477.5" y="175.0" />
+      <point x="885.1527856334837" y="175.0" />
+      <point x="33.692307692307736" y="52.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Piece" target="ChessGame.Board">
+      <point x="-69.88235294117658" y="-148.5" />
+      <point x="1159.3676470588234" y="693.0" />
+      <point x="701.0937499999999" y="693.0" />
+      <point x="34.875" y="88.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Bishop" target="ChessGame.pieces.Piece">
+      <point x="-111.375" y="52.0" />
+      <point x="37.125" y="447.0" />
+      <point x="68.75" y="447.0" />
+      <point x="68.75" y="733.0" />
+      <point x="1089.4852941176468" y="733.0" />
+      <point x="-139.76470588235293" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.Tile" target="ChessGame.Board">
+      <point x="-50.53846153846155" y="52.5" />
+      <point x="800.9220164027145" y="155.0" />
+      <point x="635.4999999999999" y="155.0" />
+      <point x="635.4999999999999" y="437.0" />
+      <point x="622.6249999999999" y="437.0" />
+      <point x="-43.59375" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Bishop" target="ChessGame.Tile">
+      <point x="0.0" y="-52.0" />
+      <point x="148.5" y="125.0" />
+      <point x="750.383554864253" y="125.0" />
+      <point x="-101.0769230769231" y="52.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Queen" target="ChessGame.Tile">
+      <point x="0.0" y="-52.0" />
+      <point x="1794.5" y="165.0" />
+      <point x="901.9989394796376" y="165.0" />
+      <point x="50.53846153846155" y="52.5" />
+    </edge>
+    <edge source="ChessGame.pieces.King" target="ChessGame.Tile">
+      <point x="0.0" y="-76.0" />
+      <point x="829.9999999999999" y="185.0" />
+      <point x="851.4604779411761" y="185.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.Piece">
+      <point x="104.625" y="88.0" />
+      <point x="770.8437499999999" y="683.0" />
+      <point x="1176.8382352941176" y="683.0" />
+      <point x="-52.41176470588243" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.Tile">
+      <point x="-61.03125" y="-88.0" />
+      <point x="605.1874999999999" y="427.0" />
+      <point x="624.4999999999999" y="427.0" />
+      <point x="624.4999999999999" y="145.0" />
+      <point x="784.0758625565607" y="145.0" />
+      <point x="-67.38461538461536" y="52.5" />
+    </edge>
+    <edge source="ChessGame.pieces.King" target="ChessGame.pieces.Piece">
+      <point x="40.5" y="76.0" />
+      <point x="870.4999999999999" y="387.0" />
+      <point x="905.4999999999999" y="387.0" />
+      <point x="905.4999999999999" y="673.0" />
+      <point x="1194.3088235294117" y="673.0" />
+      <point x="-34.94117647058829" y="-148.5" />
+    </edge>
+    <edge source="ChessGame.pieces.Rook" target="ChessGame.Board">
+      <point x="111.375" y="52.0" />
+      <point x="576.8749999999999" y="447.0" />
+      <point x="587.7499999999999" y="447.0" />
+      <point x="-78.46875" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Pawn" target="ChessGame.Board">
+      <point x="-37.125" y="52.0" />
+      <point x="1440.375" y="427.0" />
+      <point x="762.1249999999999" y="427.0" />
+      <point x="95.90625" y="-88.0" />
+    </edge>
+    <edge source="ChessGame.Board" target="ChessGame.pieces.Knight">
+      <point x="43.59375" y="-88.0" />
+      <point x="709.8124999999999" y="397.0" />
+      <point x="1049.125" y="397.0" />
+      <point x="-111.375" y="52.0" />
+    </edge>
+    <edge source="ChessGame.pieces.Pawn" target="ChessGame.pieces.Piece">
+      <point x="37.125" y="52.0" />
+      <point x="1514.625" y="427.0" />
+      <point x="1546.25" y="427.0" />
+      <point x="1546.25" y="683.0" />
+      <point x="1264.1911764705883" y="683.0" />
+      <point x="34.94117647058829" y="-148.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6011363636363636" x="832.5519848771268" y="373.6105860113422" />
+  <SelectedNodes>
+    <node>ChessGame.pieces.King</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
